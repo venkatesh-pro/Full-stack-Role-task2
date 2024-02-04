@@ -1,0 +1,36 @@
+export const foodDatas = [
+  {
+    image: "/images/image1.jpeg",
+    category: "Baking mixes",
+    title: "Vegan Snickertaart baking package",
+    price: "7.45",
+    isPriceRange: false,
+    buttonText: "Add To Cart",
+  },
+  {
+    image: "/images/image2.webp",
+    category: "Baking mixes",
+    title: "Healthy baking mix Protein-rich pancakes",
+    isPriceRange: true,
+    price: { priceOne: "3.95", priceTwo: "6.45" },
+    buttonText: "Select Option",
+    isLikeActive: true,
+  },
+  {
+    image: "/images/image3.jpeg",
+    category: "Cake",
+    title: "Healthy baking mix quark bread",
+    price: "5.95",
+    isPriceRange: false,
+    buttonText: "Add To Cart",
+    isDifferentColor: true,
+  },
+  {
+    image: "/images/image4.jpeg",
+    category: "Cake",
+    title: "Healthy baking mix banana bread",
+    price: "5.95",
+    isPriceRange: false,
+    buttonText: "Add To Cart",
+  },
+];
